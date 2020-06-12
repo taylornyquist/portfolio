@@ -1,0 +1,113 @@
+:root {
+    --light-gray: #a6b5c5;
+    --slate: #31343a;
+    --dark-blue: #0a1a3e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Header/Nav Styles */
+header {
+    padding: 20px 0px;
+    background-color: var(--slate);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--slate);
+    background-color: var(--light-gray);
+    padding-left: 60px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--slate);
+}
+
+/* fix this */
+header nav {
+    margin: 10px, 200px;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: right;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 2vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: var(--light-gray);
+}
+
+/* Hero Styles */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    width: 100%;
+    height: 250px;
+}
+
+.hero h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--slate);
+    background-color: var(--light-gray);
+    padding: 10px 10px;
+}
+
+/* Section Title Styles */
+.section-title {
+    font-weight: bold;
+    font-size: 30px;
+    color: var(--slate);
+    border-right: 3px solid;
+    text-align: right;
+} 
+
+.about-me, .work, .contact-me {
+    
+}
+
+/* About Me Section Styles */
+.bio {
+    width: 80%;
+    display: block;
+
+}
+
+/* Work Container Grid Styles */
+.work-grid-container {
+    width: 80%;
+    display: grid;
+
+}
