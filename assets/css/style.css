@@ -239,6 +239,8 @@ section {
 }
 
 /* Media Queries Styles */
+
+/* Media Query for iPad width and smaller */
 @media screen and (max-width: 768px) {
     header {
         justify-content: center;
@@ -258,6 +260,7 @@ section {
     }
 }
 
+/* Media Query for iPhone Plus width and smaller */
 @media screen and (max-width: 414px) {
     header nav ul {
         flex-direction: column;
