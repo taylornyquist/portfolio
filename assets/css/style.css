@@ -224,7 +224,7 @@ section {
     text-decoration: underline;
     color: var(--slate);
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 20px;
     padding: 5px 15px;
     transition: .5s;
 }
@@ -232,4 +232,26 @@ section {
 .contact-links ul li a:hover {
     background-color: var(--slate);
     color: var(--light-gray);
+}
+
+/* Media Queries Styles */
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    header h1 {
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    header nav ul {
+        justify-content: space-around;
+    }
+
+    .hero-header {
+        margin-top: 50px;
+    }
+
 }
