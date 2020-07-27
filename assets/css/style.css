@@ -90,7 +90,7 @@ nav {
     margin: 0 0;
 }
 
-.hero img {
+#head-shot {
     width: 50vw;
 }
 
@@ -207,7 +207,7 @@ section {
 }
 
 .site-5 {
-    background-image: url("../images/run-buddy.jpg");
+    background-image: url("../images/portfolio-5.jpg");
 }
 
 .site-6 {
